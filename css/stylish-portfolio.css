@@ -79,7 +79,7 @@ hr.small {
     color: white;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 480px) {
 /* define mobile specific styles come here */
   body, html{
     color:red;
