@@ -1,10 +1,3 @@
-/*!
- * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
-/* Global Styles */
 
 html,
 body {
@@ -95,7 +88,7 @@ hr.small {
 }
 
 .article-image{
-  width:50%;
+  width:100%;
 }
 
 .article-text{
@@ -138,13 +131,14 @@ hr.small {
     display: table;
     width: 100%;
     height: 81%;
-    color: black;
-    background: url('http://www.pigment-digital.net/tableaux/diptyque/chaud-et-froid.jpg') no-repeat center center scroll;
+    color: white;
+    background: url('../img/Abhijith_C_WP_28November2015-05.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     padding-bottom:0px;
+    text-shadow: 2px 2px 8px black;
 }
 
 .related {
@@ -172,10 +166,6 @@ hr.small {
 
 /* Footer */
 
-footer {
-  padding-bottom: 0px;
-    padding-top: 100px;
-}
 
 .bottom-div{
   background: #726E6D;
@@ -183,4 +173,9 @@ footer {
   text-align: center;
   padding-bottom: 5px;
   padding-top: 5px;
+}
+
+footer {
+  padding-bottom: 0px;
+    padding-top: 100px;
 }
