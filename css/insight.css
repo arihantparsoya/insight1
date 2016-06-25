@@ -13,6 +13,49 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.topnav{
+  padding-top: 0px;
+  padding-bottom: 1%;
+  width:100%;
+  text-align: center;
+  color: #726E6D;
+  background: #E5E4E2;
+}
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 7%;
+    background: #E5E4E2;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header a{
+  color: #726E6D;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.title-head {
+    display: table;
+    width: 100%;
+    height: 81%;
+    color: white;
+    background: url('../img/Abhijith_C_WP_28November2015-05.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-bottom:0px;
+    text-shadow: 2px 2px 8px black;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -26,23 +69,37 @@ body {
     font-weight: 700;
 }
 
-/* Custom Horizontal Rule */
+.article{
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.article-image{
+  width:100%;
+}
+
+.article-text{
+  padding-bottom: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.article-quote{
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  background: #726E6D;
+  color: white;
+  text-align: left;
+}
+
+
 
 hr.small {
     max-width: 150px;
 }
 
-/* Side Menu */
-
-
-.topnav{
-  padding-top: 0px;
-  padding-bottom: 1%;
-  width:100%;
-  text-align: center;
-  color: #726E6D;
-  background: #E5E4E2;
-}
 /* Header */
 
 .header {
@@ -125,22 +182,6 @@ hr.small {
     margin-bottom: 30px;
 }
 
-/* Callout */
-
-.title-head {
-    display: table;
-    width: 100%;
-    height: 81%;
-    color: white;
-    background: url('../img/Abhijith_C_WP_28November2015-05.jpg') no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    padding-bottom:0px;
-    text-shadow: 2px 2px 8px black;
-}
-
 .related {
     display: table;
     width: 100%;
@@ -166,6 +207,10 @@ hr.small {
 
 /* Footer */
 
+footer {
+  padding-bottom: 0px;
+    padding-top: 100px;
+}
 
 .bottom-div{
   background: #726E6D;
@@ -173,9 +218,4 @@ hr.small {
   text-align: center;
   padding-bottom: 5px;
   padding-top: 5px;
-}
-
-footer {
-  padding-bottom: 0px;
-    padding-top: 100px;
 }
