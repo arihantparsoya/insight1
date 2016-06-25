@@ -1,0 +1,186 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body {
+  color:black;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 150px;
+}
+
+/* Side Menu */
+
+
+.topnav{
+  padding-top: 0px;
+  padding-bottom: 1%;
+  width:100%;
+  text-align: center;
+  color: #726E6D;
+  background: #E5E4E2;
+}
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 7%;
+    background: #E5E4E2;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header a{
+  color: #726E6D;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* About */
+
+.about {
+    width:100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #726E6D;
+    color: white;
+}
+
+@media screen and (max-device-width: 480px) {
+/* define mobile specific styles come here */
+  body, html{
+    color:black;
+  }
+}
+
+.article{
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.article-image{
+  width:50%;
+}
+
+.article-text{
+  padding-bottom: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.article-quote{
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  background: #726E6D;
+  color: white;
+  text-align: left;
+}
+
+.author-image{
+  width:100%;
+  height:100%;
+}
+
+.author-description{
+  text-align: left;
+}
+/* Services */
+
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+/* Callout */
+
+.title-head {
+    display: table;
+    width: 100%;
+    height: 81%;
+    color: black;
+    background: url('http://www.pigment-digital.net/tableaux/diptyque/chaud-et-froid.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-bottom:0px;
+}
+
+.related {
+    display: table;
+    width: 100%;
+    height: 70%;
+    color: white;
+    background: #E4287C;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.trending {
+    display: table;
+    width: 100%;
+    height: 70%;
+    color: black;
+    background: url('http://eskipaper.com/images/paint-wallpaper-11.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Footer */
+
+footer {
+  padding-bottom: 0px;
+    padding-top: 100px;
+}
+
+.bottom-div{
+  background: #726E6D;
+  color: white;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
