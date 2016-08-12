@@ -1,4 +1,34 @@
 
+@font-face {
+    font-family: "Playfair Display";
+    src: url('Playfair_Display/PlayfairDisplay-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url('Merriweather/Merriweather-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Merriweather Light Italic";
+    src: url('Merriweather/Merriweather-LightItalic.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Merriweather Light";
+    src: url('Merriweather/Merriweather-Light.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Playfair Display Italic";
+    src: url('Playfair_Display/PlayfairDisplay-Italic.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Playfair Display Regular";
+    src: url('Playfair_Display/PlayfairDisplay-Regular.ttf') format("truetype");
+}
+
 html,
 body {
     width: 100%;
@@ -10,7 +40,7 @@ body {
 
 body {
   color:black;
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Merriweather", Verdana, Tahoma;
 }
 
 .topnav{
@@ -67,6 +97,23 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+    font-family: "Playfair Display", Verdana, Tahoma;
+}
+
+h1{
+  font-family: "Playfair Display", Verdana, Tahoma;
+}
+
+h2{
+  font-family: "Playfair Display", Verdana, Tahoma;
+}
+
+h3{
+  font-family: "Playfair Display", Verdana, Tahoma;
+}
+
+h4{
+  font-family: "Playfair Display", Verdana, Tahoma;
 }
 
 .article{
@@ -82,6 +129,8 @@ body {
   padding-bottom: 30px;
   padding-bottom: 30px;
   text-align: left;
+  font-family: "Merriweather", Verdana, Tahoma;
+  font-weight: 50;
 }
 
 .article-quote{
@@ -97,7 +146,8 @@ body {
 
 
 hr.small {
-    max-width: 150px;
+    max-width: 100px;
+    border-width: 3px;
 }
 
 /* Header */
@@ -142,6 +192,14 @@ hr.small {
 .article{
   padding-top: 30px;
   padding-bottom: 60px;
+  font-family: "Merriweather", Verdana, Tahoma;
+}
+
+.article h1{
+  color:#726E6D;
+  font-family: "Merriweather Light", Verdana, Tahoma;
+  font-size: 30px;
+  font-style:italic;
 }
 
 .article-image{
@@ -152,16 +210,9 @@ hr.small {
   padding-bottom: 30px;
   padding-bottom: 30px;
   text-align: left;
-}
-
-.article-quote{
-  padding-left: 5px;
-  padding-top: 10px;
-  padding-right: 5px;
-  padding-bottom: 10px;
-  background: #726E6D;
-  color: white;
-  text-align: left;
+  font-family: "Merriweather", Verdana, Tahoma;
+  font-size: 17px;
+  color:#726E6D;
 }
 
 .author-image{
@@ -212,10 +263,34 @@ footer {
     padding-top: 100px;
 }
 
+footer strong{
+  color:#726E6D;
+}
+
 .bottom-div{
-  background: #726E6D;
-  color: white;
+  background: #E5E4E2;
+  color: #726E6D;
   text-align: center;
   padding-bottom: 5px;
   padding-top: 5px;
+}
+
+/* defining fonts
+Format:
+@font-face {
+  [ font-family: <family-name>; ] ||
+  [ src: [ <uri> [format(<string>#)]? | <font-face-name> ]#; ] ||
+  [ unicode-range: <urange>#; ] ||
+  [ font-variant: <font-variant>; ] ||
+  [ font-feature-settings: normal | <feature-tag-value>#; ] ||
+  [ font-stretch: <font-stretch>; ] ||
+  [ font-weight: <weight>; ] ||
+  [ font-style: <style>; ]
+}
+*/
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
 }
