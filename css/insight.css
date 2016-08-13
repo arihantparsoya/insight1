@@ -1,8 +1,4 @@
 
-@font-face {
-    font-family: "Playfair Display";
-    src: url('Playfair_Display/PlayfairDisplay-Bold.ttf') format("truetype");
-}
 
 @font-face {
     font-family: "Merriweather";
@@ -15,8 +11,18 @@
 }
 
 @font-face {
+    font-family: "Merriweather Italic";
+    src: url('Merriweather/Merriweather-Italic.ttf') format("truetype");
+}
+
+@font-face {
     font-family: "Merriweather Light";
     src: url('Merriweather/Merriweather-Light.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url('Playfair_Display/PlayfairDisplay-Black.ttf') format("truetype");
 }
 
 @font-face {
@@ -27,6 +33,11 @@
 @font-face {
     font-family: "Playfair Display Regular";
     src: url('Playfair_Display/PlayfairDisplay-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Playfair Display Black";
+    src: url('Playfair_Display/PlayfairDisplay-Black.ttf') format("truetype");
 }
 
 html,
@@ -97,7 +108,7 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
-    font-family: "Playfair Display", Verdana, Tahoma;
+    font-family: "Playfair Display Black", Verdana, Tahoma;
 }
 
 h1{
@@ -195,11 +206,12 @@ hr.small {
   font-family: "Merriweather", Verdana, Tahoma;
 }
 
-.article h1{
+.article .headings{
   color:#726E6D;
-  font-family: "Merriweather Light", Verdana, Tahoma;
+  font-family: "Merriweather Italic", Verdana, Tahoma;
   font-size: 30px;
   font-style:italic;
+  font-weight: normal;
 }
 
 .article-image{
