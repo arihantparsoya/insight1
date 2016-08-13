@@ -222,9 +222,9 @@ hr.small {
   padding-bottom: 30px;
   padding-bottom: 30px;
   text-align: left;
-  font-family: "Merriweather", Verdana, Tahoma;
+  font-family: "Merriweather Light", Verdana, Tahoma;
   font-size: 17px;
-  color:#726E6D;
+  color:black;
 }
 
 .author-image{
@@ -234,6 +234,7 @@ hr.small {
 
 .author-description{
   text-align: left;
+  font-family: "Merriweather Light", Verdana, Tahoma;
 }
 /* Services */
 
