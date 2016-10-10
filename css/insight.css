@@ -87,7 +87,7 @@ body {
 .title-head {
     display: table;
     width: 100%;
-    height: 82%;
+    height: 90%;
     color: white;
     background: url('../img/Abhijith_C_WP_28November2015-05.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -112,7 +112,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 4.5em;
-    font-weight: 700;
+    font-weight: 600;
     font-family: "Playfair Display Black", Verdana, Tahoma;
 }
 
@@ -144,9 +144,9 @@ h4{
 .article-text{
   padding-bottom: 30px;
   padding-bottom: 30px;
-  text-align: left;
   font-family: "Merriweather", Verdana, Tahoma;
   font-weight: 50;
+  text-align: justify;
 }
 
 .article-quote{
@@ -315,9 +315,3 @@ Format:
   [ font-style: <style>; ]
 }
 */
-
-
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
-}
